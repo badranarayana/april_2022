@@ -1,0 +1,46 @@
+What is python?
+
+--> python is high level interpreted/scripting programming language
+--> it is case sensitive programming langauge
+--> we can use python to develop any kind of applications in software
+     example:
+        1) web applications
+        2) automation
+        3) ml/AI
+        4) games
+        5) mobiles app
+        6) trading bots
+
+--> genaral purpose 
+       it is not specific for single domain.
+--> open source
+
+
+
+why should we use python?
+
+--> python is simple prorgamming language compared to other langauges
+
+--> syntax looks easy
+
+--> code looks like english paragraph
+--> having huge amount of libs
+--> good community
+--> stable versions
+--> open source(no need to pay)
+--> platform independent
+
+
+
+
+# what is version of python?
+--> 3.10
+
+# OS --> windows --> download windows python binary and install
+
+# ubunu --> download ubuntu python binary
+
+--------------------------------------------------------------------------------
+
+
+
