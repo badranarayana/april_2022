@@ -1,0 +1,9 @@
+name,mobile_number,location
+vamsi,908990099,hyderabad
+praveen,7838838383,bangalore
+kiran,57747474,pune
+vamsi2,908990099,hyderabad
+vamsi1,908990099,hyderabad
+vamsi3,908990099,hyderabad
+vamsi4,908990099,hyderabad
+badra,4773773773,pune
