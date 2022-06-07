@@ -63,5 +63,73 @@ OS Module in Python with Examples
  The *os* and *os.path* modules include many functions to interact with the file system.
 
 """
+import os
+# it is an built -in module
+
+folder_name = "TestDir"
+
+# create folder using os module
+#os.mkdir(folder_name)
+
+# nested dirs
+my_path = 'photos\myphotos\Test123\A\B'
+#os.makedirs(my_path, exist_ok=True)
+
+
+#my_path = 'photos\myphotos\Test123\A'
+# delete dirs
+#os.rmdir(my_path)
+
+my_path = "photos"
+import shutil
+
+shutil.rmtree(my_path, ignore_errors=True)
+
+
+
+# how do we check given path is file or dir?
+path = 'TestDir/abc.txt'
+
+if os.path.isdir(path):
+    print("Path is the folder path")
+
+if os.path.isfile(path):
+    print("path is the file path")
+
+
+my_file_path = 'TestDir/abc.txt'
+# how do we check file exists in path?
+if os.path.exists(my_file_path):
+    print("Path is valid")
+
+# copying data from one folder to another folder?
+source = 'TestDir'
+destination = 'MyDir/rr/ee'
+
+# lets create this dir if not exits
+# if not os.path.exists(destination):
+#     os.mkdir(destination)
+
+#shutil.copytree(source, destination)
+
+
+
+
+# how do we join two paths
+
+dir_name = "TestDir"
+file_name = "abc.txt"
+file_path = os.path.join(dir_name, file_name)
+print(file_path)
+
+
+
+
+
+
+
+
+
+
 
 
