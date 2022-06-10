@@ -1,0 +1,12 @@
+- branches:
+  - hyderabad
+  - pune
+  - bangalore
+  name: wipro
+- branches:
+  - hyderabad
+  name: infosys
+- branches:
+  - hyderabad
+  - Bangalore
+  name: tcs
